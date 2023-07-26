@@ -26,7 +26,8 @@ module.exports = {
     host: config_creator.get("server:dev:host")
   },
   router: {
-    base: '/dev-exchanger/',
+    target: 'static',
+    base: '/dev-exchanger/client/',
     trailingSlash: true
   },
   generate: {
