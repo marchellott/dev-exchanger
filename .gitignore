@@ -1,0 +1,8 @@
+node_modules/
+npm-debug.log
+.nuxt/
+dist/
+.idea/
+.DS_Store
+config/app.json
+sw.*

@@ -1,0 +1,915 @@
+{
+  "moment-locale": "es",
+  "text-field": "Campo ",
+  "not-filled": " no rellenado",
+  "errorMessage": {
+    "40301": "¡Usted no está autorizado! Para esta acción, tiene que identificarse.",
+    "67562": "Nombre o apellido incorrectos",
+    "241351": "Cuenta no encontrada. Compruebe el correo electrónico o regístrese de nuevo.",
+    "5030000": "No se puede procesar su solicitud. Por favor, intente de nuevo dentro de {time} segundos.",
+    "11000654": "El Email ya está en uso, puede restablecer la contraseña.",
+    "1601588666628861": "¿Usted no es un bot? Por favor, marque la casilla del campo \"No soy un robot\" e intente de nuevo.",
+    "6231533598118172": "Código incorrecto",
+    "3421537955653247": "Código incorrecto.",
+    "7461542063995112": "Número de teléfono introducido incorrectamente. Asegúrese de introducirlo correctamente e intente de nuevo.",
+    "6741546826351955": "Código incorrecto. Por favor, intente de nuevo.",
+    "2801537954040709": "Ya ha instalado la autenticación de dos factores.",
+    "9301546172123668": "¡Ya ha dejado una reseña hoy! Sólo puede dejar una reseña al día.",
+    "2101529500915451": "Su reseña es demasiado larga, el máximo es de 1000 símblos.",
+    "3961529529941976": "Email incorrecto",
+    "2355231636112": "Cuenta no activada.",
+    "5341529529941981": "Contraseña no indicada",
+    "5071545873252155": "Campo del importe indicado incorrectamente",
+    "8781529530113112": "Email no rellenado",
+    "8291556107293522": "El importe de la retirada debe ser mayor que cero",
+    "1661545348963371": "El importe del cambio debe ser mayor que cero",
+    "5471556107294030": "El importe del cambio debe ser mayor que cero",
+    "7701545348962388": "El importe del cambio debe ser mayor que cero",
+    "3631545348962766": "El importe del cambio debe ser menor que {max}",
+    "9951545348963164": "El importe del cambio debe ser menor que {max} (faltan reservas)",
+    "7701545348962387": "El importe del cambio debe ser mayor que {min}",
+    "6801545277215051": "Dirección no disponible. Por favor, vuelva a intentar más tarde."
+  },
+  "meta": {
+    "rules": {
+      "title": "Reglas",
+      "description": "Exchanger Reglas del cambio",
+      "keywords": "Regla del cambiador, Reglas del cambio, Reglas del sitio web"
+    },
+    "news": {
+      "title": "Noticias",
+      "description": "Noticias exchanger",
+      "keywords": "Criptonoticias, Noticias de bitcoin, Noticias"
+    },
+    "requisites": {
+      "title": "Datos bancarios",
+      "description": " Datos bancarios del cambiador",
+      "keywords": "Datos bancarios del cambiador, datos bancarios del cambio"
+    },
+    "partners_system": {
+      "title": "Programa de socios",
+      "description": "Programa de socios",
+      "keywords": "Programa de socios del cambiador"
+    },
+    "orders": {
+      "title": "Solicitud",
+      "description": "Solicitudes de cambio cripto",
+      "keywords": "Solicitudes de cambio cripto, cambio de criptomonedas, solicitudes cripto, criptomonedas"
+    },
+    "faq": {
+      "title": "Preguntas frecuentes",
+      "description": "Preguntas frecuentes sobre el cambio de criptomoneda y el funcionamiento del servidor",
+      "keywords": "Preguntas frecuentes sobre el cambio de criptomoneda y el funcionamiento del servidor"
+    },
+    "contacts": {
+      "title": "Contactar",
+      "description": "Contactar con el servidor",
+      "keywords": "Retroalimentación del cambiador, Contactar con el cambiador, Apoyo del cambiador"
+    },
+    "technical": {
+      "title": "Revisiones técnicas del cambiador",
+      "description": "No se preocupe, si su solicitud ha sido pagada antes del comienzo de las revisiones técnicas, será procesada en breve. Disculpen las molestias.",
+      "keywords": "Error, error técnico"
+    },
+    "main": {
+      "title": "cambio rápido",
+      "description": "Nuestro servicio ayuda a realizar el cambio de manera segura y rápida.",
+      "keywords": "Ahora estamos trabajando en ello, Nuestro servicio ayuda a cambiar de manera segura y rápida, Reservas, Noticias, Reseñas, Socios, Retroalimentación"
+    },
+    "partners": {
+      "title": "Socios",
+      "description": "Programas de socios para usuarios, socios, tiendas",
+      "keywords": "Programa de referidos para usuarios, para vigilancia, Recepción de pagos para su sitio web"
+    },
+    "reviews": {
+      "title": "Reseñas",
+      "description": "Reseñas, mejores modificaciones, reseñas mmgp, reseñas, modificaciones",
+      "keywords": "Perfil, perfil cripto, cartera cripto, criptomoneda"
+    },
+    "user": {
+      "title": "Perfil",
+      "description": "Exchanger Perfil",
+      "keywords": "Perfil, perfil cripto, cartera cripto, criptomoneda"
+    },
+    "api": {
+      "title": "API",
+      "description": "API",
+      "keywords": "API del cambiador"
+    },
+    "technical_work": {
+      "title": "Revisiones técnicas del cambiador",
+      "description": "No se preocupe, si su solicitud ha sido pagada antes del comienzo de las revisiones técnicas, será procesada en breve. Disculpen las molestias.",
+      "keywords": "Error, error técnico"
+    }
+  },
+  "page": {
+    "partner_api": {
+			"title": "Dokumentoj pri la integriĝo de partneroj",
+			"subtitle-1": "Monitoranta integriĝo",
+			"subtitle-2": "API Por partneroj",
+			"subtitle-3": "Rezulto:",
+			"subtitle-4": "Parametroj:",
+			"text-1": "Kiel ricevi referencon al referenco",
+			"text-2": "Por akiri ligon al la partnereco, vi devas enigi vian konton per via retpoŝto kaj pasvorto, tiam iru al la sekcio 'Partnereco -Profilo' kaj la partnereca ligilo estas sube.",
+			"text-3": "La interŝanĝa punkto povas esti okupita de la CUR_FROM kaj CUR_TO GET -parametroj, kaj estas transdonita de monitorado kiam vi translokigas la uzanton al ligo al la retejo de la interŝanĝo.",
+			"text-4": "Kiam la uzanto moviĝas de monitorado, CUR_FROM kaj CUR_TO GET -parametroj povas esti aldonitaj al la URL de la interŝanĝa URL.TH aŭ aŭtomate anstataŭigi la elektitajn monerojn en la elektaj listoj.",
+			"text-4-1": "Ekzemplaj ligoj kun parametroj:",
+			"text-5": "Ligiloj al Eksportaj Kursoj:",
+			"text-6": "Kiel akiri API -ŝlosilon?",
+			"text-7": "Por akiri ligon al la partnereco, vi devas enigi vian konton per retpoŝto kaj pasvorto, tiam iru al 'API -profilo kaj alklaku' Krei API -aliron 'post kopiado de la subaj datumoj estos via API -ŝlosilo.",
+			"text-8": "Peto -Adreso:",
+			"text-9": "<b>Mankis uzante parametrojn:</b> <br /><br /><code>api_action</code> – pp <br /><code>api_key</code> – Via Persona Ŝlosilo <br /><code>method</code> – API Modula Metodo",
+			"text-10": "API -referenco aspektos tiel:",
+			"text-11": " - Informoj pri Konto kaj Paga Metodo",
+			"text-13": " - Viaj Partnerecoj",
+			"text-14": " - Partnereco"
+		},
+    "404": {
+      "title": "Error, la página solicitada no se ha encontrado",
+      "back": "Volver a la página principal"
+    },
+    "merchants": {
+      "integration": "Integración con su servidor",
+      "merchant": "Comerciante",
+      "name": "Nombre",
+      "description": "Descripción",
+      "type": "Tipo",
+      "or": "o para",
+      "createOrder": "Crear una solicitud",
+      "useMethod": "Utilice el método",
+      "titleUseMethod": "Puede encontrar la documentación del sistema de autorización en su perfil. Puede encontrar más información sobre el trabajo con los métodos y datos extra en",
+      "notifyIpn": "Notificación sobre el cambio de la solicitud de pago",
+      "titleNotifyIpn": "Para recibir la notificación sobre el cambio del estado de la solicitud, a la hora de crearla, tiene que enviar unos parámetros adicionales:",
+      "clientCallbackUrl": "llamada de vuelta, una vez finalizada la aplicación, el cliente verá el botón de volver al sitio web y será redirigido a este url",
+      "hideOutData1": "ocultar los datos del receptor",
+      "hideOutData": "ocultar los datos bancarios",
+      "ipnUrl": "Enlace HTTP / HTTPS para notificar su servidor.",
+      "paymentNotificationURL": "Dirección URL de la notificación sobre el pago instantáneo",
+      "ipnSecret1": "Línea aleatoria para crear la firma de la solicitud (para mantener la integridad de la solicitud)",
+      "ipnSecret": "línea para crear un hash seguro en ipn url",
+      "subTitleIpn1": "La solicitud será enviada por el método POST",
+      "subTitleIpn2": "IPN será enviado una vez",
+      "subTitleIpn3": "No se garantiza el suministro de IPN (si el servidor no ha respondido a la solicitud, no será enviada de nuevo)",
+      "exampleIpn": "Ejemplo de IPN",
+      "order": "solicitud",
+      "ipnUrl1": "será llamado cuando se cambie el estado de la solicitud",
+      "in": "",
+      "currentStatus": "estado actual",
+      "doc": "Puede encontrar la documentación del sistema de autorización en su perfil. Puede encontrar más información sobre el trabajo con\n         métodos y datos extra en",
+      "notify": "Notificación sobre el cambio del estado de la solicitud de pago",
+      "timestamp": " tiempo de unix y notificaciones de ipn",
+      "toValues": "datos bancarios de la solicitud",
+      "statusesList": "Lista de estados",
+      "new": "solicitud nueva",
+      "waitPayment": "estamos esperando el pago del usuario",
+      "errorPayment": "error del pago del usuario (error de envío del vendedor)",
+      "inProgress": "en proceso (se espera el procesamiento por el administrador o el pago de la solicitud)",
+      "inProgressPayout": "en cola para pagar (pago aceptado correctamente) (si está configurado el pago automático en moneda extranjera, será inicializado",
+      "errorPayout": "error de pago (error producido a la hora de pagar)",
+      "hold": "solicitud congelada (problemas con la aplicación)",
+      "done": "solicitud pagada correctamente",
+      "returned": "la solicitud fue pagada, pero no todas las condiciones del cambio y métodos de devolución del remitente fueron cumplidos",
+      "deleted": "solicitud eliminada (cancelada)",
+      "verification": "Verificación del importe del control de la solicitud (IPN)",
+      "paymentControl": "Control de pagos",
+      "paymentControlTitle": "Si necesita controlar el estado de solicitudes, crearlas a través de la autorización, entonces todas las solicitudes serán reflejadas en su cuenta;",
+      "paymentControlTitle1": "Puede guardar UID de la solicitud y secreto y manualmente acceder a la solicitud, indicando estos datos en la barra de direcciones",
+      "payment": "Pago",
+      "paymentTitle": "Puede utilizar / payment / para visualizar la página de pagos",
+      "paymentTitle1": "También puede simplemente dar el enlace al mercado de intercambio de la forma en que la ven sus clientes según el mismo esquema de la primera opción, a excepción de que /payment/ hace falta cambiarlo por /order/",
+      "paymentTitle2": "En el método existen unos parámetros que permiten visualizar los datos de pago o la forma de pago en su sitio web, que puede utilizar. IMPORTANTE: si se utiliza el método del pago anticipado, tiene que actualizar el estado del pedido con waitPayment hasta inProgress después del pago.",
+      "idRoute": "id de la dirección",
+      "linkPartner": "código del socio",
+      "amount": "importe",
+      "key": "clave del campo",
+      "value": "valor del campo",
+      "lang": "idioma (ru, ing)",
+      "agreement": "acuerdo"
+    },
+    "main": {
+      "title": "Único <span>cambio de monedas</span>",
+      "descr": "Nuestro servidor ayuda a hacer cambios de manera segura y rápida",
+      "ieDetected": "Lo sentimos, Internet Explorer ya no está soportado. Intente instalar otro navegaodor:",
+      "notificationTitle": "Notificaciones",
+      "created": "Creado",
+      "updated": "Actualizado",
+      "from": {
+        "title": "Entrega",
+        "choose": "Seleccione una moneda",
+        "currency": "Moneda",
+        "all": "Todas",
+        "min": "Mín:",
+        "max": "Máx:"
+      },
+      "to": {
+        "title": "Recibirá",
+        "choose": "Seleccione una moneda",
+        "currency": "Moneda",
+        "all": "Todas",
+        "reserve": "Reserva:",
+        "rate": "Tipo de cambio:"
+      },
+      "details": {
+        "choose": "Introduzca datos para finalizar el cambio",
+        "title": "Introducción de datos",
+        "amount": "Importe",
+        "instructionTitle": "Cambio {from} a {to}",
+        "stepDescription": "Para hacer el cambio tiene que seguir varios pasos:",
+        "step_p1": "Familiarícese con las condiciones del contrato de prestación de servicios, pulsando el botón Cambiar usted confirma que está de acuerdo con todas las cláusulas",
+        "step_p2": "Rellene todos los campos del formulario proporcionado. Pulse el botón",
+        "step_p3": "Pague el pedido. Para eso, hay que hacer la transferencia del importe necesario, siguiendo las instrucciones de nuestro sitio web.",
+        "step_p4": "Después de realizar las acciones indicadas, el sistema le trasladará a la página «Estado de la solicitud», donde estará indicado el estado de su transferencia.",
+        "personalData": "Datos personales",
+        "enter_form": "Rellena el formulario",
+        "needVerifCurrency": "Para esta dirección será necesaria la verificación de la cuenta ",
+        "needVerifPerson": "Para esta dirección será necesaria la verificación.",
+        "advice": "Familiarícese atentamente",
+        "email": "E-mail",
+        "pocket_from": "De la cartera",
+        "pocket_to": "A la cartera",
+        "rules": "Pulsando este botón, acepto las normas",
+        "agree": "Estoy de acuerdo con las condiciones y",
+        "agree_kyc": "Estoy de acuerdo con las condiciones y",
+        "agree_link": "las normas del servicio",
+        "agree_link_kyc": "KYC/AML",
+        "submit": "Cambiar ahora",
+        "pleaseSelectRoute": "Seleccione la dirección del cambio",
+        "select_p_1": "Seleccione la moneda que",
+        "select_p_2": "desee entregar y recibir",
+        "errorRoute": "¡Dirección no disponible!",
+        "error_p_1": "Por el momento usted no puede ",
+        "error_p_2": "crear el cambio en la dirección actual.",
+        "pleaseWait": "Por favor espere...",
+        "loading_p_1": "Cargando datos para la dirección.",
+        "loading_p_2": "Tardará unos segundos."
+      },
+      "stars": {
+        "title": "<span>Las ventajas</span> de nuestro servicio",
+        "help": "Apoyo instantáneo",
+        "help_t": "Apoyo",
+        "privacy": "No guardamos y no transferimos sus datos a terceros.",
+        "privacy_t": "Confidencialidad",
+        "support": "¡Nuestro equipo de apoyo siempre está preparado! Para responder a sus cuestiones técnicas.",
+        "support_t": "Apoyo",
+        "guarantee": "¡Tenemos los cambios al 100% con los pagos posteriores!",
+        "guarantee_t": "Garantías"
+      },
+      "reserves": {
+        "title": "Reservas",
+        "all": "Ver todas",
+        "order": "Solicitar una reserva"
+      },
+      "reviews": {
+        "title": "Reseñas",
+        "all": "Ver todas"
+      },
+      "title_partners": "Socios",
+      "attention": "Atención, la dirección actual no está disponible",
+      "haven_t_reserve": "Por el momento la reserva del cambio no es suficiente para el cambio.",
+      "correct": "Corregir",
+      "messages": {
+        "signIn": "¡Bienvenido!",
+        "reviewSuccess": "¡Gracias! Su reseña ha sido añadida correctamente.",
+        "mustBeAgree": "Debe familiarizarse y ponerse de acuedo con las normas del servicio.",
+        "checkEmail": "Revise su correo electrónico para activar la cuenta",
+        "checkEmailInstructions": "Revise su correo electrónico para recibir las instrucciones",
+        "changedPassword": "Su contraseña ha sido modificada correctamente",
+        "editMain": "Datos guardados correctamente",
+        "qrCreated": "Código-QR creado",
+        "2faDeleted": "Autenticación de dos factores eliminada",
+        "2faConfirmed": "Autenticación de dos factores instalada.",
+        "goodBye": "Ha cerrado la sesión correctamente",
+        "checkFields": "Compruebe que todos los campos están correctos"
+      },
+      "routes": {
+				"text": "Salida de dinero {from} a {to}"
+			}
+    },
+    "news": {
+      "title": "Noticias",
+      "all": "Ver todas",
+      "news-not-found": "No hay noticias",
+      "category": "Categoría",
+      "your_name": "Su nombre",
+      "news": {
+        "back": "Volver a las noticias",
+        "comment": "Comentario",
+        "put_comment": "Dejar su comentario",
+        "put_comment_2": "Dejar un comentario",
+        "no_comments": "No hay comentarios",
+        "text_review": "Introduzca el texto de la reseña"
+      }
+    },
+    "rules": {
+      "title": "Normas",
+      "all": "Mostrar todas",
+      "order": "Reserva del pedido"
+    },
+    "reviews": {
+      "title": "Reseñas",
+      "all": "Ver todas las",
+      "reviews": "reseñas",
+      "feedbackOn": "reseñas sobre",
+      "reviews_not_found": "No se ha encontrado ninguna reseña",
+      "form_send": "Forma de envío de la reseña",
+      "agree": "Pulsando este botón, estoy de acuerdo con",
+      "agree_rules": "las normas del servicio",
+      "send": "enviar",
+      "msg_text": "Introduzca el texto de la reseña",
+      "your_name": "Nombre",
+      "your_email": "Dirección del correo electrónico"
+    },
+    "technical": {
+      "title": "Revisiones técnicas",
+      "description": "No se preocupe, si su solicitud ha sido pagada antes del comienzo de las revisiones técnicas, será procesada en breve. Disculpen las molestias.",
+      "btn-news": "Lea las noticias"
+    },
+    "about": {
+      "title": "Sobre el servicio",
+      "chat": "Iniciar un chat",
+      "every_t": "Trabajamos las 24 horas del día",
+      "choose": "Seleccione la dirección del cambio"
+    },
+    "reset_password": {
+      "reset_password": "Por favor introduzca una contraseña nueva"
+    },
+    "contacts": {
+      "title": "Contactos",
+      "chat": "Iniciar un chat",
+      "warn": "¡Atención! El cambio solo se realiza en el sitio web.",
+      "feedback": "Retroalimentación",
+      "your_name": "Nombre",
+      "your_email": "E-mail",
+      "msg_text": "Introduzca el texto de la reseña",
+      "send_btn": "Enviar un mensaje",
+      "agree": "Pulsando este botón",
+      "agree_rules": "Muestro mi acuerdo con las normas de uso del sitio web.",
+      "requestAccepted": "Su solicitud ha sido aceptada, espere la respuesta en su correo electrónico."
+    },
+    "faq": {
+      "title": "Preguntas frecuentes",
+      "all": "Mostrar todos",
+      "search": "¿Hacer una pregunta?",
+      "no_info": "No hay información",
+      "index_faq": "La información no se encuentra disponible",
+      "progress": {
+        "amount": "Resultado:",
+        "exchange_details": "Datos del cambio",
+        "phone": "Teléfono",
+        "application": "El estado de la solicitud se está procesando"
+      }
+    },
+    "partners": {
+      "title": "Socios",
+      "toUsers": {
+        "slogan": "Ahorre y gane dinero",
+        "title": "Programa de referidos para los usuarios",
+        "content": "¿Quiere ganar junto con nosotros? Regístrese en nuestro sitio web y podrá participar en nuestro programa de referidos y nuestro sistema acumulativo de descuentos! Después de registrarse, recibirá automáticamente un descuento acumulativo por cambio del 5%.",
+        "button": "Leer más"
+      },
+      "toPartners": {
+        "slogan": "gane dinero",
+        "title": "Para vigilancias",
+        "content": "Le invitamos a colaborar en la vigilancia del cambiador. Nos alegran mucho nuevos socios y estamos dispuestos a compartir el beneficio.    Regístrese en nuestro sitio web y recibirá un enlace especial de referidos.",
+        "button": "Más detalles"
+      },
+      "toShops": {
+        "slogan": "acepte pagos y gane dinero",
+        "title": "Recepción de pagos para su sitio web",
+        "content": "¿Tiene su propia tienda online, página de aterrizaje o está vendiendo un producto o servicio, pero no tiene la posibilidad de recibir los pagos? ¡Con nosotros, podrá recibir los pagos de bancos distintos sistemas de pagos distintos con tipos de cambio convenientes para sus clientes!",
+        "button": "Más información"
+      },
+      "partner_system": {
+        "title": "Programa de socios",
+        "available": "Disponible para la retirada",
+        "withdraw": "Retirar los fondos",
+        "auto_out": "Retirada automática",
+        "more": "más información",
+        "change_rate": "Cambiar la tasa",
+        "my_rate": "Mi tasa",
+        "of_the_amount": "del importe",
+        "total_received": "Total recibido",
+        "operations": "Operaciones",
+        "conversions": "conversiones",
+        "referrals": "Referidos",
+        "referral_title": "Enlace de referidos y exportación de tipos de cambio",
+        "referral_description": "Puede participar en nuestro programa de socios. Utilice su propio enlace que está indicado abajo.",
+        "referral_link": "Su enlace de referidos",
+        "export_rates_txt": "Exportación de tipos de cambio TXT",
+        "export_rates_json": "Exportación de tipos de cambio JSON",
+        "export_rates_xml": "Exportación de tipos de cambio XML",
+        "partner_rewards": "Recompensas de los socios",
+        "profit": "Beneficio",
+        "change": "Cambio",
+        "from_profits": "del beneficio"
+      },
+      "system": {
+        "technical_partner": "Realización técnica del programa de socios",
+        "user_guide": "El usuario se traslada al punto de cambio con el enlace del socio indicado abajo;  A la hora de acceder al enlace, el punto de cambio instala cookies para guardar la pertenencia del usuario a un socio determinado; A la hora de crear una solicitud para el cambio, se toma de cookies el code del socio y se calcula el importe de la recompensa para el socio; Después de la finalización correcta del cambio, el importe de la recompensa se transfiere a la cuenta del perfil del socio; La cuenta del socio contiene estadísticas sobre transferencias y la historia de visitas para un funcionamiento más cómodo y eficaz.",
+        "affiliate_program": "Programa de socios",
+        "available_withdraw": "Disponible para la retirada",
+        "withdraw_funds": "Retirar los fondos",
+        "history": "Historia de las retiradas",
+        "my_bet": "Mi apuesta",
+        "from_the": "Del importe",
+        "from_profit": "Del beneficio",
+        "change_bid": "Cambiar la apuesta",
+        "more": "Más información",
+        "total_received": "Total",
+        "operations": "Operaciones",
+        "transitions": "Transiciones",
+        "referrals": "Referidos",
+        "referral_link": "Su enlace de referidos y exportación de tipos de cambio",
+        "you_can_text": "Puede participar en nuestro programa de socios. Utilice su propio enlace que está indicado abajo.",
+        "your_affiliate_link": "Su enlace de socios",
+        "export_txt": "Exportación de tipos de cambio TXT",
+        "export_json": "Exportación de tipos de cambio JSON",
+        "export_xml": "Exportación de tipos de cambio XML",
+        "affiliate_rewards": "Recompensas para los socios",
+        "profit": "Beneficio",
+        "exchange": "Cambio",
+        "change_rate": "Cambiar la tasa"
+      }
+    },
+    "user": {
+      "api": {
+        "rest_api_access": "Доступ к REST-API",
+        "rest_api": "REST-API",
+        "rest_api_description": "(Interfaz de la programación aplicada) consiste en un conjunto de clases, procedimientos, funciones, estructura y constantes preparadas, que son proporcionadas por el servicio para su uso en los productos de programas exteriores. Se utiliza por los informáticos a la hora de escribir distintas aplicaciones.",
+        "save_api_access": "Gurdar el acceso a API",
+        "access": "Acceso:",
+        "enable_api": "Encender API",
+        "enable_withdrawals": "Permitir la retirada",
+        "api_key": "API-clave",
+        "api_created": "Creado",
+        "api_delete": "Eliminar",
+        "for_the_access_title": "Para acceder a este API es necesaria la autorización y usted debe usar las solicitudes POST.",
+        "need_to_use": "También debe usar esta dirección",
+        "where": "Donde",
+        "name_api": "Este nombre del método",
+        "auth_with": "La autorización se realiza enviando los siguientes títulos al servidor:",
+        "take_public_key": "Clave abierta, es necesario aceptar las configuraciones del perfil del usuario",
+        "example": "Ejemplo",
+        "get_post": "Los parámetros GET y POST (en el formato de un json) algoritmo SHA512 recibió de ellos el importe del control y el paso siguiente consiste en la ejecución repetida del hash SHA512 (importe del control + secreto), firmado por el método de la clave secreta, la clave secreta también debe ser transferida a las configuraciones del perfil del usuario",
+        "extra_in_the": "Además, todas las solicitudes deben contener el parámetro requerido del tiempo con el valor numérico del tiempo unix (> 0). Este valor no debe repetirse ni disminuirse. (para la seguridad de su firma hash)",
+        "js_example": "Un ejemplo de la creación de hash en javascript",
+        "example_headers": "Títulos del ejemplo:",
+        "btn_copy_key": "Copia",
+        "documentation_api": "Documentación"
+      },
+      "profile": {
+        "profile": "Perfil",
+        "contact": "Datos de contacto",
+        "edit": "Modificar",
+        "name": "Nombre",
+        "phone_number": "Número de teléfono",
+        "save": "Guardar",
+        "password": "Contraseña",
+        "current_password": "Contraseña actual",
+        "new": "Contraseña nueva",
+        "repeat_password": "Repetir contraseña",
+        "first_name": "Nombre",
+        "last_name": "Apellido",
+        "phone": "Teléfono",
+        "email": "E-mail",
+        "account_protection": "Protección de la cuenta",
+        "notifications": "Notificaciones",
+        "edit_password": "Recibir las notificaciones sobre cambios de la contraseña",
+        "receive_notification": "Recibir las notificaciones sobre modificaciones en el estado de mis cambios",
+        "get_logged": "Recibir las notificaciones sobre accesos a mi cuenta",
+        "requests": {
+          "title": "Solicitudes para el cambio",
+          "all": "Todas",
+          "new": "Nuevas",
+          "closed": "Cerradas",
+          "blocked": "Bloqueadas",
+          "currency": "Moneda",
+          "wallet": "Cartera",
+          "status": "Estado",
+          "date": "Fecha",
+          "action": "Acción",
+          "operation": "Operación"
+        },
+        "requisites": "Solicitudes",
+        "affiliate": "Programa de socios",
+        "api": "REST-API",
+        "passport": "Datos del pasaporte",
+        "serial": "Serie del pasaporte",
+        "when": "Cuándo fue expedido",
+        "who": "Quién lo expidió",
+        "old": "Contraseña anterior",
+        "reg": {
+          "title": "Registrarse",
+          "name": "Su nombre",
+          "email": "E-mail",
+          "password": "Contraseña",
+          "repeat": "Confirmar contraseña",
+          "rules": "Pulsando el botón “Registrarse” acepto el intercambio de datos con el sitio web",
+          "submit": "Registrarse",
+          "social": "Acceder con"
+        },
+        "reset": {
+          "title": "Cambio de contraseña",
+          "password": "Crear una contraseña",
+          "repeat": "Confirmar la contraseña",
+          "submit": "Cambiar"
+        },
+        "protection": {
+          "account_protection": "Protección de la cuenta",
+          "two_factor": " Añadir la protección en dos factores",
+          "notifications": "Notificaciones",
+          "reset_2_factor": "Quitar la protección en dos factores",
+          "current_password": "Contraseña actual",
+          "receive_notification": "Recibir las notificaciones sobre modificaciones en el estado de mis cambios",
+          "get_logged": "Recibir las notificaciones sobre accesos a mi cuenta",
+          "block_my_account": "Bloquear mi cuenta",
+          "delete_my_account": "Eliminar la cuenta"
+        }
+      },
+      "requisites": {
+        "requisites": "Datos bancarios",
+        "electronic_currency": "Monedas electrónicas",
+        "crypto_currency": "criptomonedas",
+        "bank_accounts": "cuentas bancarias",
+        "you_none": "no tiene ninguna",
+        "yandex_money": "Yandex_money de los datos bancarios",
+        "add_wallet": "Añadir una cartera",
+        "verified_wallet": "Cartera verificada",
+        "currency": "Moneda",
+        "wallet": "Cartera",
+        "save": "Guardar",
+        "pending": "En proceso",
+        "person": "Usuario"
+      },
+      "nav": {
+        "profile": "Perfil"
+      },
+      "order": {
+        "title": "Solicitud ",
+        "all": "Todas",
+        "current": "Actuales",
+        "doneTab": "Finalizadas",
+        "deletedTab": "Eliminadas",
+        "currency": "Criptomoneda",
+        "wallet": "Cartera",
+        "status": "Estado",
+        "date": "Fecha",
+        "undefined": "...",
+        "new": "creada",
+        "action": "Acción",
+        "operation": "Operación",
+        "giving": "Doy",
+        "getting": "Recibo",
+        "waitPayment": "esperando el pago",
+        "inProgress": "procesando",
+        "inProgressPayout": "procesando el pago",
+        "deleted": "eliminada",
+        "hold": "congelada",
+        "errorPayment": "problemas del pago",
+        "errorPayout": "problemas del pago",
+        "error": "Error",
+        "done": "Realizada",
+        "returned": "Devuelta",
+        "actual_until": "Actual hasta:",
+        "time_left": "Validez:",
+        "log_in_to": "Acceder:",
+        "amount": "Importe:",
+        "to_account": "Cuenta:",
+        "comment": "Comentario para el pago:",
+        "removed_request": "Petición eliminada",
+        "order_id": "ID:",
+        "transferDetails": "Detalles del cambio",
+        "youSend": "Entrega,",
+        "youReceive": "Recibirá,",
+        "orderCreatedAt": "Solicitud creada en",
+        "toCancelTheExchange": "Para cancelar el cambio, haga el siguiente paso:",
+        "cancelBtn": "Cancelar el cambio",
+        "closeBtn": "Cerrar",
+        "noOrders": "No hay pedidos",
+        "howToIncreaseThePercentageOfAffiliateCommission": "¿Cómo aumentar el porcentaje de la recompensa de socios?",
+        "toChangeThePercentageOfAffiliateCommissionPlease": "Para modificar el porcentaje de la recompensa de socios, contacte con nosotros a través de feedback o datos de contacto indicados en la página Contactos. En el mensaje debe indicar su email, el porcentaje que le gustaría recibir y el enlace al servidor a través del cual se atraerán los socios.",
+        "technicalImplementationOfThePartnershipProgram": "Realización técnica del programa de socios",
+        "aboutPartnerSystem": {
+          "txt1": "En nuestro cambiador existen 2 tipos de programa de socios: del importe del cambio (usted recibe el % de la facturación del cambiador) o del beneficio del cambiador (usted recibe el % de los fondos ganados por el cambiador).",
+          "txt2": "Del sitio web del socio el usuario accede al punto de cambio a través del enlace con el parámetro que indica el código del socio;",
+          "txt3": "Cuando se accede al enlace, el punto de cambio instala los cookies para guardar la pertenencia del usuario a un socio determinado;",
+          "txt4": "A la hora de crear una solicitud de cambio, de los cookies se toma el código del socio y se calcula el importe de la recompensa para el socio;",
+          "txt5": "Si el cambio se ha finalizado correctamente, el importe de la recompensa se transfiere a la cuenta del perfil del socio;"
+        }
+      }
+    },
+    "exchange": {
+      "form": {
+        "from": {
+          "title": "Entrega",
+          "choose": "Seleccione una moneda",
+          "currency": "Moneda"
+        },
+        "to": {
+          "title": "Recibirá",
+          "choose": "Seleccione una moneda",
+          "currency": "Moneda",
+          "reserve": "Reserva:",
+          "rate": "Tipo de cambio:"
+        },
+        "details": {
+          "choose": "Introduzca los datos para finalizar el cambio",
+          "title": "Detalles del cambio",
+          "advice": "Familiarícese atentamente",
+          "pocket_from": "De la cartera",
+          "pocket_to": "A la cartera",
+          "rules": "Pulsando este botón, acepto las normas",
+          "submit": "Cambiar"
+        }
+      },
+      "redirect": {
+        "account_activate_error": {
+          "error": "Error de la activación del código",
+          "dont_worry": "No se preocupe"
+        },
+        "account_activate_success": {
+          "success": "Código activado correctamente",
+          "dont_worry": "No se preocupe"
+        },
+        "account_email_change": {
+          "success": "El email de confirmación fue envido a su correo electrónico."
+        },
+        "account_error": {
+          "error": "Error de activación de la cuenta",
+          "dont_worry": "No se preocupe"
+        },
+        "account_success": {
+          "success": "Аккаунт успешно подтвержден",
+          "dont_worry": "не беспокойтесь"
+        },
+        "account_email_success": {
+          "success": "E-mail confirmado correctamente",
+          "dont_worry": "No se preocupe"
+        },
+        "account_email_error": {
+          "error": "Error del cambio de E-mail",
+          "dont_worry": "No se preocupe"
+        },
+        "account_password_error": {
+          "old_toked": "Tiene un token viejo"
+        }
+      },
+      "order": {
+        "status": {
+          "new": "Confirmación del cambio",
+          "waitPayment": "Esperando el pago",
+          "inProgress": "Procesando",
+          "inProgressPayout": "En proceso",
+          "deleted": "Cambio eliminado",
+          "hold": "Cambio congelado",
+          "done": "Cambio finalizado",
+          "returned": "Devolución del cambio"
+        },
+        "order_id": "Id:",
+        "total": "Total",
+        "time": {
+          "actual_until": "Relevante hasta:",
+          "time_left": "El plazo temina:"
+        },
+        "wait": {
+          "btn": "He pagado",
+          "title": "Para finalizar el cambio, tiene que realizar los siguientes pasos:",
+          "step": {
+            "log_in_to": "Acceder:",
+            "amount": "Pagar:",
+            "to_account": "Cuenta:",
+            "comment": "Comentario para el pago:"
+          }
+        },
+        "order_table": {
+          "giving": "Doy",
+          "getting": "Recibo"
+        },
+        "application_process_status": "La solicitud se está procesando.",
+        "waiting_flow_of_funds": "Estamos comprobando el ingreso de los fondos. Una vez confirmado el pago, automáticamente empezaremos a procesar su solicitud automáticamente.",
+        "Were_start_paying_to_you": "Procesando el pago.",
+        "we_will_transfer_money_as_soon_as_possible": "La solicitud se ha enviado para su ejecución, estamos empezando el pago de su solicitud.",
+        "holdTitle": "La solicitud está congelada, se ha sometido a una revisión adicional.",
+        "holdDesc": "Su cambio ha sido congelado\nPor favor, contacte con el servicio de apoyo para recibir más información sobre esta situación.",
+        "errorPayoutTitle": "La solicitud se está procesando.",
+        "errorPayoutSorry": "Tenemos dificultades con el pago de su solicitud.\nEn breve resolveremos este problema.",
+        "returnedTitle": "No hemos logrado realizar su cambio.",
+        "returnedDesc": "Le hemos devuelto su dinero. Si necesita más información, por favor contacte con nosostros.",
+        "doneTitle": "Cambio realizado.",
+        "doneDesc": "Gracias por usar nuestro servicio. ¡Por favor, deje una reseña sobre el funcionamiento de nuestro servicio!",
+        "deletedTitle": "La solicitud fue eliminada",
+        "deletedDesc": "Si ya ha pagado, espere hasta que el sistema detecte su pago.",
+        "delete": {
+          "cancel": "Operación cancelada",
+          "amount": "Importe del cambio:",
+          "commission": "Comisión",
+          "total": "Total:",
+          "contact_details": "Datos de contacto",
+          "phone": "teléfono"
+        },
+        "confirmation": {
+          "exchange": "Importe del cambio",
+          "checkAndConfirm": "Compruebe y confirme los datos:",
+          "youReceive": "Recibirá:",
+          "total": "Total",
+          "contact_details": "Datos de contacto",
+          "phone": "Teléfono",
+          "verification": "Verificarse",
+          "cancel": "Cancelar la solicitud",
+          "pay": "Pagar",
+          "confirm": "Pulsando este botón, estoy de acuerdo con",
+          "rules": "las normas del cambio",
+          "passVerification": "Verificarse",
+          "bills": "Cuentas",
+          "inProcess": "En proceso",
+          "success": "Completado correctamente",
+          "personalVerification": "Verificación de la identidad"
+        },
+        "secret": {
+          "new": "Confirmación del cambio",
+          "waitPayment": "Esperando el pago",
+          "inProgress": "Esperando el procesamiento",
+          "inProgressPayout": "La solicitud se está procesando",
+          "deleted": "Cambio eliminado",
+          "hold": "Solicitud congelada",
+          "done": "Solicitud ejecutada",
+          "returned": "Solicitud devuelta",
+          "order_id": "ID:"
+        },
+        "hold": {
+          "status": "La solicitud está congelada, se ha sometido a una revisión adicional."
+        },
+        "done": {
+          "status": "Ejecutada."
+        },
+        "returned": {
+          "status": "Fondos devueltos."
+        }
+      },
+      "copied": "¡Copiado!"
+    }
+  },
+  "ui": {
+    "footer": {
+      "dev_by": "Desarrollado por el equipo",
+      "box_exchanger": "BoxExchanger",
+      "about": "Sobre nosotros",
+      "rules": "Normas",
+      "contacts": "Contactos",
+      "support": {
+        "title": "Servicio de apoyo",
+        "online": "Feedback",
+        "advice": "¿Tiene alguna pregunta?",
+        "name": "Introduzca su correo",
+        "message": "Mensaje",
+        "submit": "Enviar"
+      }
+    },
+    "buttons": {
+      "back": "Volver al sitio web",
+      "news_link": "Ahora lea las noticias",
+      "save": "Guardar",
+      "2factor": "Encender la protección en dos factores",
+      "reset2factor": "Apagar la protección en dos factores",
+      "profile_notifications": "Notificaciones",
+      "block_my_account": "Bloquear mi cuenta",
+      "delete_my_account": "Eliminar mi cuenta",
+      "sign_in": "Acceso",
+      "sign_up": "Registrarse",
+      "confirm": "Confirmar",
+      "restore": "Restablecer",
+      "forget": "¿Olvidó su contraseña?",
+      "password_recovery": "Restablecer la contraseña",
+      "profile": "Perfil",
+      "affiliate": "Programa de socios",
+      "requests": "Solicitudes para el cambio",
+      "send_reviews_form": "Enviar",
+      "api": "API",
+      "partners_start_chat": "Iniciar un chat",
+      "create_api_access": "Crear acceso API",
+      "documentation_api": "Documentación",
+      "btn": "Pagar",
+      "requisites": "Cartera"
+    },
+    "header": {
+      "exchange": "Exchange",
+      "reviews": "Reseñas",
+      "partners": "Para los socios",
+      "rules": "Normas de cambio",
+      "kyc_aml": "KYC/AML",
+      "news": "Noticias",
+      "faq": "FAQ",
+      "contacts": "Contactos",
+      "sign": "Acceder",
+      "reg": "Crear una cuenta",
+      "profile": "Perfil",
+      "requests": "Solicitudes para el cambio",
+      "requisites": "Datos bancarios",
+      "api": "API",
+      "affiliate": "Programa de socios",
+      "exit": "Salir"
+    },
+    "order": {
+      "status": {
+        "new": "Nueva",
+        "waitPayment": "Esperando el pago",
+        "errorPayment": "Error del pago",
+        "errorPayout": "Error del pago",
+        "inProgress": "Esperando el procesamiento",
+        "inProgressPayout": "En proceso",
+        "deleted": "Solicitud eliminada",
+        "hold": "Solicitud congelada",
+        "done": "Solicitud finalizada correctamente",
+        "returned": "Solicitud devuelta"
+      }
+    },
+    "modules": {
+      "toCompleteOrderTransfer": "Para finalizar el cambio tiene que transferir los fondos:",
+      "transfer": "Transferir:",
+      "toAccount": "A la cuenta:",
+      "toAddress": "A la dirección:",
+      "memo": "Nota:",
+      "tag": "Etiqueta:",
+      "coinsWillApprovedAfter": "Las monedas se aceptarán después de:",
+      "networkConfirmations": "las aceptaciones de la red",
+      "waitingPayment": "Esperando el pago:",
+      "makePayment": "Proceder al pago",
+      "pleaseWait": "Por favor, espere...",
+      "errorGetPayment": "¡Error de la creación de la solicitud! Contacte con nuestro servicio de apoyo.",
+      "pay": "Pagar",
+      "paymentAccepted": "Pago aceptado.",
+      "tryAgain": "Repetir",
+      "enter": "Introduzca",
+      "code": "código",
+      "paymentPassword": "Contraseña del pago:",
+      "paymentAcceptedWaitConfirm": "Pago aceptado. Esperando las confirmaciones:",
+      "cancelOrder": "Cancelar",
+      "iPaid": "He pagado",
+      "loginInto": "Acceder al sistema:",
+      "loginIntoWallet": "Acceder a la cartera:",
+      "payWallet": "Pago desde mi cartera",
+      "memoId": "Nota ID:"
+    }
+  },
+  "modals": {
+    "2fa": {
+      "confirmCode": "Código de confirmación:",
+      "scan": "Escanee el código QR",
+      "copy": "O copie el código secreto",
+      "copied": "¡Copiado!",
+      "write": "Introduzca el código de la aplicación",
+      "write_p": "Introduzca el código",
+      "confirm": "Confirmar",
+      "app": "Aplicación",
+      "operation": "La operación no es posible"
+    },
+    "login": {
+      "login": "Acceder a la cuenta",
+      "password_recovery": "Restablecer la contraseña",
+      "email": "E-mail",
+      "password": "Contraseña",
+      "social": "Acceder con"
+    },
+    "profile": {
+      "blockAccountTitle": "¿Quiere bloquear su cuenta?",
+      "blockAccountSubTitle": "Será bloqueada durante 7 días.",
+      "sureTitle": "¿Está seguro?",
+      "sureBlockAccountSubTitle": "La cuenta será bloqueada inmediatamente.",
+      "deleteAccountTitle": "¿Quiere eliminar su cuenta?",
+      "deleteAccountSubTitle": "¡No puede cancelar esta acción!",
+      "sureDeleteAccountSubTitle": "La cuenta será eliminada inmediatamente.",
+      "btnCancel": "Cancelar",
+      "btnOk": "Sí",
+      "btnSure": "Seguro"
+    },
+    "sign_up": {
+      "sign_up": "Registrarse",
+      "your_name": "nombre",
+      "your_surname": " Apellido",
+      "name": "Nombre",
+      "surname": "Apellido",
+      "email": "E-mail",
+      "password": "Contraseña",
+      "repeat": "Repita la contraseña",
+      "rules": "Acepto el intercambio de datos personales con el sitio web.",
+      "submit": "Registrarse",
+      "social": "Acceder con"
+    },
+    "partner": {
+      "auto_get_money": {
+        "title": "Retirada automática de las finanzas"
+      },
+      "change_rate": {
+        "change_rate": "Cambiar la tasa"
+      },
+      "get_money": {
+        "get_money": "Retirada de los fondos",
+        "no_routes": "No hay métodos disponibles para la retirada. Por favor, contacte con el servicio de apoyo para retirar los fondos.",
+        "amountInUsd": "Importe (en USD)",
+        "youWillGet": "Usted recibirá:",
+        "withdraw": "Retirar"
+      }
+    }
+  },
+  "Card number": "Número de tarjeta"
+}
