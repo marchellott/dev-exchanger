@@ -1,11 +1,11 @@
 {
-  "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup",
   "name": "exchanger",
   "version": "1.0.0",
   "description": "exchanger",
   "author": "boxexchnger",
   "private": true,
   "scripts": {
+    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup",
     "configure": "node ./script-configure.js",
     "dev": "nuxt",
     "build": "nuxt build",
